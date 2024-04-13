@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Info</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokémon <span>Info</span></h1>
+      <div id="pokemon-input">
+        <label for="pokemon-select">Selecciona un Pokémon:</label>
+        <select id="pokemon-select">
+          <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+        </select>
+        <button onclick="getPokemonInfo()">Consultar</button>
+      </div>
+      <div id="pokemon-info" class="pokemon-info"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

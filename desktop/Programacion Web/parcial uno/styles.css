@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+  font-size: 1.3em;
+}
+
+.container {
+  width: 50vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 5%;
+}
+span {
+  color: rgb(49, 47, 47);
+  font-weight: normal;
+}
+
+#pokemon-input {
+}
+
+#pokemon-select {
+  border-radius: 10vh;
+  border-color: yellow;
+}
+
+button {
+  border-radius: 10vh;
+  font-size: 1em;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+#attributes-menu {
+}
+
+#attributes-menu label {
+  font-weight: bold;
+}
+
+#attributes-menu select {
+  margin-right: 10px;
+}
+
+#pokemon-info {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
